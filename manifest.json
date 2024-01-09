@@ -4,9 +4,17 @@
     "description": "Tracks win/loss rate of minesweeper.com and other stats",
     "version": "1.0",
     "icons": {
-        "16": "/images/minesweeperlogo.png",
-        "48": "/images/minesweeperlogo.png",
-        "128": "/images/minesweeperlogo.png"
+        "16": "/images/icon-enabled-16.png",
+        "48": "/images/icon-enabled-16.png",
+        "128": "/images/icon-enabled-16.png"
+    },
+    "permissions": [
+        "tabs", 
+        "activeTab",
+        "storage"
+    ],
+    "background":{
+        "service_worker": "background.js"
     },
     "action":{
         "default_title": "Minesweeper Stat Tracker",
