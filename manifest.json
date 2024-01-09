@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Minesweeper Stat Tracker",
+    "description": "Tracks win/loss rate of minesweeper.com and other stats",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/minesweeperlogo.png",
+        "48": "/images/minesweeperlogo.png",
+        "128": "/images/minesweeperlogo.png"
+    },
+    "action":{
+        "default_title": "Minesweeper Stat Tracker",
+        "default_popup": "popup.html"
+    }
+}
