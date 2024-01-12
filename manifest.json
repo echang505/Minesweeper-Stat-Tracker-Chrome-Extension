@@ -19,5 +19,18 @@
     "action":{
         "default_title": "Minesweeper Stat Tracker",
         "default_popup": "popup.html"
-    }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.minesweeperonline.com/*"
+            ],
+            "js": [
+                "matches.js"
+            ]
+        }
+
+
+
+    ]
 }
